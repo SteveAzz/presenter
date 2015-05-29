@@ -1,0 +1,23 @@
+{
+    "name": "steveazz/presenter",
+    "description": "A presenter wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "steve azzopardi",
+            "email": "steveazz@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SteveAzz\\": "src/SteveAzz/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.2.*@dev",
+        "mockery/mockery": "1.0.*@dev"
+    }
+}
